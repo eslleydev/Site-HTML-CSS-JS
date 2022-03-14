@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Starbuck Coffee</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="index.js"></script>
+</head>
+
+<body>
+    <section>
+        <div class="circle"></div>
+        <header>            
+            <a href="#"><img src="../assets/logo.png" alt="starbucks-logo" class="logo"></a>
+            <!--logo-->
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Menu</a></li>
+                <li><a href="#">What's New</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+            <!--lista-->
+        </header>
+        <!--header-->
+        <div class="content">
+            <div class="textBox">
+                <h2>It's not Just Coffee <br>It's <span>Starbuck</span></h2>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Totam adipisci ullam sapiente veritatis.
+                    Reprehenderit culpa temporibus, blanditiis quae eligendi, saepe assumenda impedit totam laborum
+                    debitis ducimus dolorem porro labore exercitationem?</p>
+                <a href="#">Learn More</a>
+            </div>
+            <!--textBox-->
+            <div class="imgBox">
+                <img src="../assets/img1.png" alt="" class="starbucks">
+            </div>
+            <!--imagem copo grande-->
+            <!--Está dentro do content, usando space-betwee para separar o texto e a imagem criamos o mesmo efeito que a navbar recebe-->
+            <!--Imagens menores-->
+        </div>
+        <!--content-->
+        <ul class="thumb">
+            <li><img src="../assets/thumb1.png" onclick="imgSlider ('img1.png'); changneCircleColor('#017143')" alt=""></li>
+            <li><img src="../assets/thumb2.png" onclick="imgSlider ('img2.png'); changneCircleColor('#eb7495')" alt=""></li>
+            <li><img src="../assets/thumb3.png" onclick="imgSlider ('img3.png'); changneCircleColor('#d752b1')" alt=""></li>
+        </ul>
+        <ul class="sci">
+            <li><a href="#"><img src="../assets/facebook.png" alt=""></a></li>
+            <li><a href="#"><img src="../assets/instagram.png" alt=""></a></li>
+            <li><a href="#"><img src="../assets/twitter.png" alt=""></a></li>
+        </ul>
+    </section>    
+</body>
+
+</html>
